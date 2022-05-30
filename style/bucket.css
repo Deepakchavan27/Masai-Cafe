@@ -1,0 +1,27 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+#div{
+    border: 1px solid blue;
+    margin-top: 2%;
+}
+#img{
+    height: 250px;
+    width: 70%;
+    /* box-sizing: border-box;
+    padding: 50px; */
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 30px;
+}
+.h3{
+    text-align: center;
+}
+#remove_coffee{
+    text-align: center;
+    margin-left: 35%;
+}
